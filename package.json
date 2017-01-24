@@ -1,0 +1,22 @@
+{
+  "name": "critics",
+  "version": "1.0.0",
+  "description": "A tool that gives a movie recommendation according to several movie score websites.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myanna1994/critics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myanna1994/critics/issues"
+  },
+  "homepage": "https://github.com/myanna1994/critics#readme",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
