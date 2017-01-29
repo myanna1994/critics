@@ -17,10 +17,10 @@ request('https://api.douban.com/v2/movie/in_theaters', function (error, response
        request(website, function (error, response, body) {
        if (!error && response.statusCode == 200) {
          var renewbody = JSON.parse(body);
-       var directors = renewbody.directors[0].name;
-       console.log("导演：" + directors);
-       var rating0 = renewbody.rating.average;
-       console.log("评分：" + rating0)
+         var directors = renewbody.directors[0].name;
+         console.log("导演：" + directors);
+         var rating0 = renewbody.rating.average;
+         console.log("评分：" + rating0)
     }})}
 }
 })
