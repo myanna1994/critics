@@ -1,3 +1,5 @@
+var argv = require('minimist')(process.argv.slice(2));
+var r = argv.n ;
 var request = require('request');
 request('https://api.douban.com/v2/movie/in_theaters', function (error, response, body) {
   if (!error && response.statusCode == 200) {
@@ -17,6 +19,7 @@ request('https://api.douban.com/v2/movie/in_theaters', function (error, response
       newbody.subjects[a] = newbody.subjects[x];
       newbody.subjects[x] = temp;
     }
-    console.log(newbody)
+    //console.log(newbody);
+     console.log(newbody.subjects[0].original_title)
   }
 })
