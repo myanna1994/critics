@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/myanna1994/critics#readme",
   "dependencies": {
+    "imdb-api": "^2.2.1",
     "request": "^2.79.0"
   }
 }

@@ -5,7 +5,7 @@ A tool that gives a movie recommendation according to several movie score websit
 ## Usage
 
 ```shell
-./critics -n 3
+node critics.js -n=3
 1.
 片名：降临 Arrival
 导演：丹尼斯·维伦纽瓦
